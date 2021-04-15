@@ -1,0 +1,32 @@
+{
+  "expo": {
+    "name": "Astro Bamola",
+    "slug": "HoroscopeApp",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "cover",
+      "backgroundColor": "#1b2431"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.divyadishadarshan.astrobamola",
+      "buildNumber": "1.0.0"
+    },
+    "android": {
+      "package": "com.divyadishadarshan.astrobamola",
+      "versionCode": 1
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    }
+  }
+}
